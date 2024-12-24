@@ -6,9 +6,8 @@ from ..models.raw_data import RawDataframeModel
 
 class Reader:
     """
-    Класс для чтения всех данных из директории input_data и создания датакласса
+    Класс для чтения всех данных из директории input_data и создания дата exit
     """
-
     def __init__(self):
         pass
 

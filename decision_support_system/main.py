@@ -22,9 +22,10 @@ from decision_support_system.core.mechanisms import (
 
 
 async def runner():
+    print("hui")
     files_reader = Reader()
 
-    # # MAIN TEST DATA
+    # MAIN TEST DATA
     # df = files_reader(
     #     matrix_row_names_path="./decision_support_system/input_data/test_data/preference_names_for_matrix_rows.csv",
     #     matrix_path="./decision_support_system/input_data/test_data/matrix.csv",
@@ -49,11 +50,19 @@ async def runner():
     # )
 
     # MODIFIED RESEARCH DATA: DELETE MOST VALUED PREFERENCES AND LEADERS FROM ORIGINAL RESEARCH
+   # df = files_reader(
+   #     matrix_row_names_path="./decision_support_system/input_data/research/without_leaders/preference_names_for_matrix_rows.csv",
+   #     matrix_path="./decision_support_system/input_data/research/without_leaders/matrix.csv",
+   #     choice_function_path="./decision_support_system/input_data/research/without_leaders/choice_function.csv",
+   #     weight_coefficients_path="./decision_support_system/input_data/research/without_leaders/weight_coefficients.csv"
+   # )
+   
+    # Smartphones
     df = files_reader(
-        matrix_row_names_path="./decision_support_system/input_data/research/without_leaders/preference_names_for_matrix_rows.csv",
-        matrix_path="./decision_support_system/input_data/research/without_leaders/matrix.csv",
-        choice_function_path="./decision_support_system/input_data/research/without_leaders/choice_function.csv",
-        weight_coefficients_path="./decision_support_system/input_data/research/without_leaders/weight_coefficients.csv"
+        matrix_row_names_path="./decision_support_system/input_data/smartphones/preference_names_for_matrix_rows.csv",
+        matrix_path="./decision_support_system/input_data/smartphones/matrix.csv",
+        choice_function_path="./decision_support_system/input_data/smartphones/choice_function.csv",
+        weight_coefficients_path="./decision_support_system/input_data/smartphones/weight_coefficients.csv"
     )
 
     df_binary = calculate_binary_relations(df)
@@ -74,7 +83,7 @@ async def runner():
         df_tournament_by_variant,
         df_k_max_by_variant
     )
-
+    print("hui")
     writer = Writer()
     writer(
         dir_to_save="./decision_support_system/output_data",
@@ -94,3 +103,6 @@ async def runner():
 
 def main():
     asyncio.run(runner())
+
+if __name__ == "__main__":
+    main()
