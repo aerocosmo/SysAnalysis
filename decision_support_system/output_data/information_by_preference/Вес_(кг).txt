@@ -11,29 +11,29 @@
 +----------------------------+-----------------+----------------------------+--------------+------------------+--------------------+---------------+-----------------------------+------------------+------------------------+-------------------------+---------------------+----------------------+
 
 +-----------------------------+-----------------+----------------------------+--------------+------------------+--------------------+---------------+-----------------------------+------------------+------------------------+-------------------------+
-|         Цена (руб.)         | ASUS ZenBook 14 |  Lenovo ThinkPad X1 Carbon |  Dell XPS 13 |  HP Spectre x360 |  Apple MacBook Air |  Acer Swift 3 |  Microsoft Surface Laptop 4 |  MSI Prestige 14 |  Huawei MateBook X Pro |  Razer Blade Stealth 13 |
+|           Вес (кг)          | ASUS ZenBook 14 |  Lenovo ThinkPad X1 Carbon |  Dell XPS 13 |  HP Spectre x360 |  Apple MacBook Air |  Acer Swift 3 |  Microsoft Surface Laptop 4 |  MSI Prestige 14 |  Huawei MateBook X Pro |  Razer Blade Stealth 13 |
 +-----------------------------+-----------------+----------------------------+--------------+------------------+--------------------+---------------+-----------------------------+------------------+------------------------+-------------------------+
-|       ASUS ZenBook 14       |        -1       |             1              |      1       |        1         |         1          |       0       |              0              |        1         |           1            |            1            |
-|   Lenovo ThinkPad X1 Carbon |        0        |             -1             |      0       |        0         |         1          |       0       |              0              |        1         |           1            |            1            |
-|          Dell XPS 13        |        0        |             1              |      -1      |        0         |         1          |       0       |              0              |        1         |           1            |            1            |
-|        HP Spectre x360      |        0        |             1              |      1       |        -1        |         1          |       0       |              0              |        1         |           1            |            1            |
-|       Apple MacBook Air     |        0        |             0              |      0       |        0         |         -1         |       0       |              0              |        1         |           0            |            1            |
-|         Acer Swift 3        |        1        |             1              |      1       |        1         |         1          |       -1      |              1              |        1         |           1            |            1            |
-|  Microsoft Surface Laptop 4 |        1        |             1              |      1       |        1         |         1          |       0       |              -1             |        1         |           1            |            1            |
-|        MSI Prestige 14      |        0        |             0              |      0       |        0         |         0          |       0       |              0              |        -1        |           0            |            1            |
-|     Huawei MateBook X Pro   |        0        |             0              |      0       |        0         |         1          |       0       |              0              |        1         |           -1           |            1            |
-|    Razer Blade Stealth 13   |        0        |             0              |      0       |        0         |         0          |       0       |              0              |        0         |           0            |            -1           |
+|       ASUS ZenBook 14       |        -1       |             0              |      0       |        0         |         0          |       1       |              0              |        1         |           0            |            1            |
+|   Lenovo ThinkPad X1 Carbon |        1        |             -1             |      1       |        1         |         1          |       1       |              1              |        1         |           1            |            1            |
+|          Dell XPS 13        |        1        |             0              |      -1      |        1         |         0          |       1       |              1              |        1         |           1            |            1            |
+|        HP Spectre x360      |        1        |             0              |      0       |        -1        |         0          |       1       |              0              |        1         |           1            |            1            |
+|       Apple MacBook Air     |        1        |             0              |      1       |        1         |         -1         |       1       |              1              |        1         |           1            |            1            |
+|         Acer Swift 3        |        1        |             0              |      0       |        0         |         0          |       -1      |              0              |        1         |           0            |            1            |
+|  Microsoft Surface Laptop 4 |        1        |             0              |      0       |        1         |         0          |       1       |              -1             |        1         |           1            |            1            |
+|        MSI Prestige 14      |        0        |             0              |      0       |        0         |         0          |       0       |              0              |        -1        |           0            |            0            |
+|     Huawei MateBook X Pro   |        1        |             0              |      0       |        1         |         0          |       1       |              0              |        1         |           -1           |            1            |
+|    Razer Blade Stealth 13   |        1        |             0              |      0       |        0         |         0          |       1       |              0              |        1         |           0            |            -1           |
 +-----------------------------+-----------------+----------------------------+--------------+------------------+--------------------+---------------+-----------------------------+------------------+------------------------+-------------------------+
 
 +-----------------------------+------------------------+
 |    Доминирующий механизм    | Доминирует ли вариант? |
 +-----------------------------+------------------------+
 |       ASUS ZenBook 14       |          нет           |
-|   Lenovo ThinkPad X1 Carbon |          нет           |
+|   Lenovo ThinkPad X1 Carbon |           да           |
 |          Dell XPS 13        |          нет           |
 |        HP Spectre x360      |          нет           |
 |       Apple MacBook Air     |          нет           |
-|         Acer Swift 3        |           да           |
+|         Acer Swift 3        |          нет           |
 |  Microsoft Surface Laptop 4 |          нет           |
 |        MSI Prestige 14      |          нет           |
 |     Huawei MateBook X Pro   |          нет           |
@@ -44,11 +44,11 @@
 |     Блокирующий механизм    | Блокирует ли вариант? |
 +-----------------------------+-----------------------+
 |       ASUS ZenBook 14       |          нет          |
-|   Lenovo ThinkPad X1 Carbon |          нет          |
+|   Lenovo ThinkPad X1 Carbon |           да          |
 |          Dell XPS 13        |          нет          |
 |        HP Spectre x360      |          нет          |
 |       Apple MacBook Air     |          нет          |
-|         Acer Swift 3        |           да          |
+|         Acer Swift 3        |          нет          |
 |  Microsoft Surface Laptop 4 |          нет          |
 |        MSI Prestige 14      |          нет          |
 |     Huawei MateBook X Pro   |          нет          |
@@ -58,29 +58,29 @@
 +-----------------------------+-------+
 |      Турнирный механизм     | Баллы |
 +-----------------------------+-------+
-|       ASUS ZenBook 14       |  1.05 |
-|   Lenovo ThinkPad X1 Carbon |  0.6  |
-|          Dell XPS 13        |  0.75 |
-|        HP Spectre x360      |  0.9  |
-|       Apple MacBook Air     |  0.3  |
-|         Acer Swift 3        |  1.35 |
-|  Microsoft Surface Laptop 4 |  1.2  |
-|        MSI Prestige 14      |  0.15 |
-|     Huawei MateBook X Pro   |  0.45 |
-|    Razer Blade Stealth 13   |   0   |
+|       ASUS ZenBook 14       |  0.3  |
+|   Lenovo ThinkPad X1 Carbon |  1.35 |
+|          Dell XPS 13        |  1.05 |
+|        HP Spectre x360      | 0.675 |
+|       Apple MacBook Air     |  1.2  |
+|         Acer Swift 3        |  0.3  |
+|  Microsoft Surface Laptop 4 |  0.9  |
+|        MSI Prestige 14      |   0   |
+|     Huawei MateBook X Pro   | 0.675 |
+|    Razer Blade Stealth 13   |  0.3  |
 +-----------------------------+-------+
 
 +-----------------------------+---------------+----------+----------+-----+-------------------+
 |        K-max механизм       | HR0 + ER + NK | HR0 + NK | HR0 + ER | HR0 |   оптимальность   |
 +-----------------------------+---------------+----------+----------+-----+-------------------+
-|       ASUS ZenBook 14       |       7       |    7     |    7     |  7  |         -         |
-|   Lenovo ThinkPad X1 Carbon |       4       |    4     |    4     |  4  |         -         |
-|          Dell XPS 13        |       5       |    5     |    5     |  5  |         -         |
-|        HP Spectre x360      |       6       |    6     |    6     |  6  |         -         |
-|       Apple MacBook Air     |       2       |    2     |    2     |  2  |         -         |
-|         Acer Swift 3        |       9       |    9     |    9     |  9  | строго наибольший |
-|  Microsoft Surface Laptop 4 |       8       |    8     |    8     |  8  |         -         |
-|        MSI Prestige 14      |       1       |    1     |    1     |  1  |         -         |
-|     Huawei MateBook X Pro   |       3       |    3     |    3     |  3  |         -         |
-|    Razer Blade Stealth 13   |       0       |    0     |    0     |  0  |         -         |
+|       ASUS ZenBook 14       |       3       |    1     |    3     |  1  |         -         |
+|   Lenovo ThinkPad X1 Carbon |       9       |    9     |    9     |  9  | строго наибольший |
+|          Dell XPS 13        |       7       |    7     |    7     |  7  |         -         |
+|        HP Spectre x360      |       5       |    4     |    5     |  4  |         -         |
+|       Apple MacBook Air     |       8       |    8     |    8     |  8  |         -         |
+|         Acer Swift 3        |       3       |    1     |    3     |  1  |         -         |
+|  Microsoft Surface Laptop 4 |       6       |    6     |    6     |  6  |         -         |
+|        MSI Prestige 14      |       0       |    0     |    0     |  0  |         -         |
+|     Huawei MateBook X Pro   |       5       |    4     |    5     |  4  |         -         |
+|    Razer Blade Stealth 13   |       3       |    1     |    3     |  1  |         -         |
 +-----------------------------+---------------+----------+----------+-----+-------------------+
