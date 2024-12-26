@@ -24,7 +24,7 @@ from decision_support_system.core.mechanisms import (
 async def runner():
     files_reader = Reader()
 
-    # MAIN TEST DATA
+    # # MAIN TEST DATA
     # df = files_reader(
     #     matrix_row_names_path="./decision_support_system/input_data/test_data/preference_names_for_matrix_rows.csv",
     #     matrix_path="./decision_support_system/input_data/test_data/matrix.csv",
@@ -56,7 +56,7 @@ async def runner():
    #     weight_coefficients_path="./decision_support_system/input_data/research/without_leaders/weight_coefficients.csv"
    # )
    
-    # Smartphones
+    # Laptops
     df = files_reader(
         matrix_row_names_path="./decision_support_system/input_data/laptops/preference_names_for_matrix_rows.csv",
         matrix_path="./decision_support_system/input_data/laptops/matrix.csv",
